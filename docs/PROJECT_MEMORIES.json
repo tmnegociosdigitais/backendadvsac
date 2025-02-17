@@ -1,0 +1,63 @@
+﻿# MEMÓRIAS DO PROJETO ADVSAC
+
+## MEMÓRIA 1: PLANO DE AÇÃO - BACKEND ADVSAC
+{
+    "id": "3f5e4def-c1e5-4e66-a6cd-13cc9c6fde06",
+    "title": "PLANO DE AÇÃO - BACKEND ADVSAC",
+    "tags": ["backend", "evolution_api", "socket_io", "testing", "documentation", "action_plan"],
+    "content": {
+        "1_integracao_evolution_api": {
+            "prioridade": "Alta",
+            "items": [
+                "Validar todos os endpoints de comunicação",
+                "Implementar sistema robusto de webhooks",
+                "Configurar retry de mensagens",
+                "Monitoramento de sessões WhatsApp",
+                "Sistema de templates de mensagens",
+                "Logs detalhados de comunicação",
+                "Testes de integração"
+            ]
+        },
+        "2_sistema_filas_departamentos": {
+            "prioridade": "Alta",
+            "items": [
+                "Distribuição inteligente de atendimentos",
+                "Regras de horário de funcionamento",
+                "Sistema de prioridades e SLA",
+                "Métricas em tempo real",
+                "Gestão de departamentos",
+                "Rotinas de manutenção",
+                "Testes de carga"
+            ]
+        }
+    }
+}
+
+## MEMÓRIA 2: CHECKLIST OBRIGATÓRIO
+{
+    "id": "ee2f7bfc-66b8-4109-83b7-87b526d2bea2",
+    "title": "CHECKLIST OBRIGATÓRIO PARA CADA IMPLEMENTAÇÃO",
+    "tags": ["checklist", "development_process", "quality_assurance", "documentation"],
+    "content": {
+        "1_documentacao_organizacao": {
+            "items": [
+                "Atualizar DOCUMENTACAO.md a cada nova implementação ou modificação",
+                "Manter a ordem cronológica das alterações",
+                "Documentar decisões técnicas importantes",
+                "Todo código DEVE estar em PT-BR",
+                "Usar exclusivamente PowerShell para comandos no Windows"
+            ],
+            "status": "completed"
+        },
+        "2_qualidade_codigo": {
+            "items": [
+                "Adicionar comentários detalhados explicando a lógica",
+                "Documentar parâmetros e retornos das funções",
+                "Seguir padrões de nomenclatura em PT-BR",
+                "Manter organização modular do código",
+                "Implementar logs adequados para rastreamento"
+            ],
+            "status": "completed"
+        }
+    }
+}
